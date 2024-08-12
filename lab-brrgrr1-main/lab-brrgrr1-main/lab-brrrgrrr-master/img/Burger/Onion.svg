@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="624px" height="30px" viewBox="0 0 624 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Onion</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Full-Burger-Copy" transform="translate(-38.000000, -338.000000)" fill="#FF7E90">
+            <g id="Onion" transform="translate(38.333333, 338.000000)">
+                <rect id="Rectangle" x="0" y="0" width="311.666667" height="30" rx="6.66666667"></rect>
+                <rect id="Rectangle" x="311.666667" y="0" width="311.666667" height="30" rx="6.66666667"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

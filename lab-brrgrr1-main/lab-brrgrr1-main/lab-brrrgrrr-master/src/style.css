@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.header {
+    position: relative;
+}
+
+
+.Group-4 {
+    width: 1440px;
+    height: 208px;
+    object-fit: contain;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+}
+
+.Group-5 {
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 321px;
+    height: 321px;
+    object-fit: contain;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+}
+
+.Rectangle1 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #212121;
+}
+
+
+
+
+.Group-7 {
+    width: 240px;
+    height: 301px;
+    object-fit: contain;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.Group-3 {
+    position: relative;
+    width: 1440px;
+    height: 220px;
+    object-fit: contain;
+}
+
+
+.Group-2 {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 207px;
+    height: 174px;
+    object-fit: contain;
+}
+
+.Rectangle2 {
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    width: 657px;
+    height: 128px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+    border: solid 1px #e4e4e4;
+    background-color: #ffffff;
+}
+
+.footer {
+    position: relative;
+}
+
+.container-text {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    width: 112px;
+    height: 58px;
+    border: solid 1px #e4e4e4;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 58px;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+}
+
+.button:active {
+    background-color: #ffd058;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button.active {
+
+    width: 112px;
+    height: 58px;
+    background-color: #ffd058;
+    line-height: 58px;
+    text-align: center;
+
+}
+
+.Rectangle3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    width: 450px;
+    height: 179px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+    border: solid 1px #e4e4e4;
+    background-color: #ffffff;
+}
+
+.Rectangle4 {
+    position: relative;
+    width: 430px;
+    height: 159px;
+    background-color: #000000;
+    color: white;
+}
+
+.Group-16 {
+
+    width: 158px;
+    height: 170px;
+    object-fit: contain;
+
+}
+
+.menu {
+    position: absolute;
+    bottom: 0%;
+    right: 30%;
+    z-index: 2;
+    border-bottom: 1px solid grey;
+}
+
+.menu-container {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-container h3 {
+    line-height: 2;
+}
+
+.menu-container p {
+    line-height: 1.5;
+}
+
+.burger {
+    position: absolute;
+    bottom: 0%;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.burger img {
+    width: 154px;
+    height: auto;
+}
+
+.Rectangle4 p {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.Rectangle4 p:nth-child(1) {
+    margin-top: 20px;
+}
+
+.Rectangle4 p.price-details {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.Rectangle5 {
+
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    width: 184px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: #f05136;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    line-height: 42px;
+}
+.footers{
+	position: absolute;
+	top: 750px;
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+	font-style: normal;
+}
+.burger {
+    position: absolute;
+    bottom: 0%;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.burger img {
+    width: 154px;
+    height: auto;
+}
